@@ -20,11 +20,11 @@ import { Doctor } from './doctor/doctor.entity';
     imports: [
         TypeOrmModule.forRoot({
             type: 'mysql',
-            host: 'localhost',
-            port: 3306,
-            username: 'root',
-            password: 'Kaseman1@#',
-            database: 'test11',
+            host: 'mysql-for-backend1-etelethiopia-be3a.c.aivencloud.com',
+            port: 23002,
+            username: 'avnadmin',
+            password: 'AVNS_r3oDHrTtCWtlTfv8p8g',
+            database: 'defaultdb',
             entities: [Appointment, Patient, Doctor], // Update entity reference
             synchronize: true,
         }),
